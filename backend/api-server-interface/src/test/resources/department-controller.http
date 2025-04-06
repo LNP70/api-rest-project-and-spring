@@ -1,0 +1,57 @@
+@api=1.0
+
+### GET all departments
+GET http://localhost:8080/v{{api}}/departments
+
+### GET department by deptNo
+@deptNo=d009
+GET http://localhost:8080/v{{api}}/departments/{{deptNo}}
+
+### CREATE department
+@newDeptNo=k012
+POST http://localhost:8080/v{{api}}/departments
+Content-Type: application/json
+
+{
+  "deptNo": "{{newDeptNo}}",
+  "deptName": "Last of the Free Companies"
+}
+
+### GET new department
+GET http://localhost:8080/v{{api}}/departments/{{newDeptNo}}
+
+### UPDATE department
+PUT http://localhost:8080/v{{api}}/departments/{{newDeptNo}}
+Content-Type: application/json
+
+{
+  "deptName": "Black Company"
+}
+
+### PATCH department
+PATCH http://localhost:8080/v{{api}}/departments/{{newDeptNo}}
+Content-Type: application/json
+
+{
+  "deptName": "The Black Company"
+}
+
+### PATCH department (no change)
+PATCH http://localhost:8080/v{{api}}/departments/{{newDeptNo}}
+Content-Type: application/json
+
+{
+  "deptName": null
+}
+
+### UPDATE department (nullify)
+PUT http://localhost:8080/v{{api}}/departments/{{newDeptNo}}
+Content-Type: application/json
+
+{
+  "deptName": null
+}
+
+### DELETE department
+DELETE http://localhost:8080/v{{api}}/departments/{{newDeptNo}}
+Content-Type: application/json
