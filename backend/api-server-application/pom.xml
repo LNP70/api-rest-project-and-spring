@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>fr.eseo.twic.rosenzveig</groupId>
-        <artifactId>api-server-exercise</artifactId>
+        <groupId>fr.eseo.twic.petnkeu</groupId>
+        <artifactId>api-server-projet</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -13,19 +13,19 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <name>api-server-application</name>
-    <description>Application module for api-server-exercise</description>
+    <description>Application module for api-server-projet</description>
 
     <dependencies>
         <dependency>
-            <groupId>fr.eseo.twic.rosenzveig</groupId>
+            <groupId>fr.eseo.twic.petnkeu</groupId>
             <artifactId>api-server-business</artifactId>
         </dependency>
         <dependency>
-            <groupId>fr.eseo.twic.rosenzveig</groupId>
+            <groupId>fr.eseo.twic.petnkeu</groupId>
             <artifactId>api-server-database</artifactId>
         </dependency>
         <dependency>
-            <groupId>fr.eseo.twic.rosenzveig</groupId>
+            <groupId>fr.eseo.twic.petnkeu</groupId>
             <artifactId>api-server-interface</artifactId>
         </dependency>
     </dependencies>

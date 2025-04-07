@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>fr.eseo.twic.petnkeu</groupId>
-    <artifactId>api-server-exercise</artifactId>
+    <artifactId>api-server-projet</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 

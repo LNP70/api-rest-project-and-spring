@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>fr.eseo.twic.petnkeu</groupId>
-        <artifactId>api-server-exercise</artifactId>
+        <artifactId>api-server-projet</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -13,11 +13,11 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <name>api-server-interface</name>
-    <description>Interface module for api-server-exercise</description>
+    <description>Interface module for api-server-projet</description>
 
     <dependencies>
         <dependency>
-            <groupId>fr.eseo.twic.rosenzveig</groupId>
+            <groupId>fr.eseo.twic.petnkeu</groupId>
             <artifactId>api-server-business</artifactId>
         </dependency>
         <dependency>

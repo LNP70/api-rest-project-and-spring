@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-server-database (1)" />
       </profile>
       <profile name="Annotation profile for jenkins" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -20,12 +19,12 @@
         <module name="api-server-interface" />
         <module name="api-server-application" />
         <module name="api-server-business" />
-        <module name="api-server-database (2)" />
+        <module name="api-server-database" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-server-applications" target="17" />
-      <module name="api-server-database" target="17" />
+      <module name="twic" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,7 +33,6 @@
       <module name="api-server-applications" options="-parameters" />
       <module name="api-server-business" options="-parameters" />
       <module name="api-server-database" options="-parameters" />
-      <module name="api-server-database (2)" options="-parameters" />
       <module name="api-server-interface" options="-parameters" />
       <module name="twic" options="-parameters" />
     </option>
