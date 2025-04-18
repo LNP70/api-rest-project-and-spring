@@ -1,7 +1,7 @@
 package fr.eseo.twic.petnkeu.apiserver.repository;
 
 import fr.eseo.twic.petnkeu.apiserver.mapper.DepartmentEntityMapper;
-import fr.eseo.twic.rosenzveig.apiserver.model.Department;
+import fr.eseo.twic.petnkeu.apiserver.model.Department;
 import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
